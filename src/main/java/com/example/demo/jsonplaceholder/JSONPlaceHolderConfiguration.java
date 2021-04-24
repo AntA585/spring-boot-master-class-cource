@@ -11,8 +11,8 @@ public class JSONPlaceHolderConfiguration {
         return args -> {
             System.out.println("https://jsonplaceholder.typicode.com/posts");
             System.out.println(jsonPlaceHolderClient.getPosts().size());
-            System.out.println("https://jsonplaceholder.typicode.com/posts/1");
-            System.out.println(jsonPlaceHolderClient.getPost(1));
+            System.out.println("https://jsonplaceholder.typicode.com/posts/2");
+            System.out.println(jsonPlaceHolderClient.getPost(2));
 
 
         };
